@@ -27,7 +27,7 @@ export class ListaDeContatosComponent implements OnInit {
     {
       nome: "Rubens Justus",
       email: "tibao@gmail.com",
-      telefones: ["5555-2222"]
+      telefones: ["5555-2222", "5555-2222", "5555-2222", "5555-2222"]
     },
     {
       nome: "Philippe Seabra",
