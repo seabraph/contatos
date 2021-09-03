@@ -7,15 +7,19 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  @Output() onAddContactClick:EventEmitter<null> = new EventEmitter();
-
+  @Output() onAddContatoClick:EventEmitter<null> = new EventEmitter();
   constructor() { }
 
   ngOnInit(): void {
   }
 
   mostrarModalClick(){
-    this.onAddContactClick.emit();
+    console.log("Cliquei para abrir o modal!");
+    this.onAddContatoClick.emit();
   }
 
+  sair(){
+    console.log("Pedindo para sair...");
+    this.onAddContatoClick.emit();
+  }
 }

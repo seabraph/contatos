@@ -8,7 +8,7 @@ import { Contato } from 'src/app/models/Contato';
 })
 export class ContatoComponent implements OnInit {
 
-  @Input() contato!:Contato;
+  @Input() registro!:Contato;
 
   constructor() { }
 
